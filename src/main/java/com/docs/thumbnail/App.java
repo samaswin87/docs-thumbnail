@@ -1,16 +1,15 @@
 package com.docs.thumbnail;
 
 import java.io.IOException;
-import java.util.logging.Logger;
+
+import com.docs.thumbnail.ThumbnailGenerator.DocType;
 
 
 public class App 
-{
-	private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
-	
+{	
     public static void main(String[] args) throws IOException
     {
     	DocLogger.init("doc_thumbnail");
-    	ThumbnailGenerator.generate();
+    	ThumbnailGenerator.generate(DocType.TXT.value());
     }
 }
