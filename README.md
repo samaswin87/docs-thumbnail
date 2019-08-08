@@ -4,7 +4,7 @@ Create thumbnail for TXT, Word, PDF, Excel and PPT
 
   ThumbnailGenerator.generate(DocType.TXT.value());
     
-###TYPES,
+### TYPES,
 
   DocType.WORD.value()
   
